@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="" />
+    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j/src/test/java/com/chriszt/log4j/Log4jTest01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/log4j/src/test/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +27,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/ConsoleAppender.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/PatternLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/PropertyConfigurator.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/SimpleLayout.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/LogLog.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/Logger.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/FileAppender.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/LogManager.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/OptionConverter.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1z3Coy0juTLHqzH7hShf3ckwPvi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -26,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jul/src/main/resources" />
@@ -36,92 +71,95 @@
       <recent name="$PROJECT_DIR$/jul/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.JULTest.test06">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Log4jTest01.test08">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JULTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jul" />
+    <configuration name="Log4jTest01.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log4j" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pbao.*" />
+          <option name="PATTERN" value="com.chriszt.log4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pbao" />
-      <option name="MAIN_CLASS_NAME" value="pbao.JULTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JULTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pbao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pbao" />
-      <option name="MAIN_CLASS_NAME" value="pbao.JULTest" />
-      <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JULTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jul" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pbao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pbao" />
-      <option name="MAIN_CLASS_NAME" value="pbao.JULTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
       <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JULTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jul" />
+    <configuration name="Log4jTest01.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log4j" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pbao.*" />
+          <option name="PATTERN" value="com.chriszt.log4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pbao" />
-      <option name="MAIN_CLASS_NAME" value="pbao.JULTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
       <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JULTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="jul" />
+    <configuration name="Log4jTest01.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log4j" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pbao.*" />
+          <option name="PATTERN" value="com.chriszt.log4j.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="pbao" />
-      <option name="MAIN_CLASS_NAME" value="pbao.JULTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
       <option name="METHOD_NAME" value="test06" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jTest01.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chriszt.log4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
+      <option name="METHOD_NAME" value="test07" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Log4jTest01.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="log4j" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chriszt.log4j.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
+      <option name="METHOD_NAME" value="test08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JULTest.test06" />
-        <item itemvalue="JUnit.JULTest.test04" />
-        <item itemvalue="JUnit.JULTest.test05" />
-        <item itemvalue="JUnit.JULTest" />
-        <item itemvalue="JUnit.JULTest.test03" />
+        <item itemvalue="JUnit.Log4jTest01.test08" />
+        <item itemvalue="JUnit.Log4jTest01.test07" />
+        <item itemvalue="JUnit.Log4jTest01.test06" />
+        <item itemvalue="JUnit.Log4jTest01.test05" />
+        <item itemvalue="JUnit.Log4jTest01.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -145,11 +183,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633367563074</updated>
-      <workItem from="1633367564383" duration="9418000" />
+      <workItem from="1633367564383" duration="9631000" />
+      <workItem from="1633406592055" duration="13774000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
