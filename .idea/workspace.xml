@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="add jcl demo">
-      <change afterPath="$PROJECT_DIR$/slf4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slf4j/src/test/java/com/chriszt/slf4j/SLF4JTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slf4j/src/test/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="add slf4j demo">
+      <change afterPath="$PROJECT_DIR$/logback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/test/java/com/chriszt/logback/LogbackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logback/src/test/resources/logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -72,7 +72,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/slf4j/src/test/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../log4j-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
@@ -83,7 +83,7 @@
       <recent name="$PROJECT_DIR$/jul/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SLF4JTest.test08">
+  <component name="RunManager" selected="JUnit.LogbackTest.test08">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -95,80 +95,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="LogbackTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logback" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.slf4j.*" />
+          <option name="PATTERN" value="com.chriszt.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.slf4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.slf4j.SLF4JTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.logback" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.logback.LogbackTest" />
       <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="LogbackTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logback" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.slf4j.*" />
+          <option name="PATTERN" value="com.chriszt.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.slf4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.slf4j.SLF4JTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.logback" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.logback.LogbackTest" />
       <option name="METHOD_NAME" value="test05" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="LogbackTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logback" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.slf4j.*" />
+          <option name="PATTERN" value="com.chriszt.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.slf4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.slf4j.SLF4JTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.logback" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.logback.LogbackTest" />
       <option name="METHOD_NAME" value="test06" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JTest.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="LogbackTest.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logback" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.slf4j.*" />
+          <option name="PATTERN" value="com.chriszt.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.slf4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.slf4j.SLF4JTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.logback" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.logback.LogbackTest" />
       <option name="METHOD_NAME" value="test07" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SLF4JTest.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="slf4j" />
+    <configuration name="LogbackTest.test08" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="logback" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.slf4j.*" />
+          <option name="PATTERN" value="com.chriszt.logback.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.slf4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.slf4j.SLF4JTest" />
+      <option name="PACKAGE_NAME" value="com.chriszt.logback" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.logback.LogbackTest" />
       <option name="METHOD_NAME" value="test08" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -177,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SLF4JTest.test08" />
-        <item itemvalue="JUnit.SLF4JTest.test07" />
-        <item itemvalue="JUnit.SLF4JTest.test06" />
-        <item itemvalue="JUnit.SLF4JTest.test05" />
-        <item itemvalue="JUnit.SLF4JTest.test04" />
+        <item itemvalue="JUnit.LogbackTest.test08" />
+        <item itemvalue="JUnit.LogbackTest.test07" />
+        <item itemvalue="JUnit.LogbackTest.test06" />
+        <item itemvalue="JUnit.LogbackTest.test05" />
+        <item itemvalue="JUnit.LogbackTest.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,7 @@
       <updated>1633367563074</updated>
       <workItem from="1633367564383" duration="9631000" />
       <workItem from="1633406592055" duration="16978000" />
-      <workItem from="1633446136339" duration="6647000" />
+      <workItem from="1633446136339" duration="15904000" />
     </task>
     <task id="LOCAL-00001" summary="add log4 1.2 demo">
       <created>1633426597267</created>
@@ -211,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633429622957</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add slf4j demo">
+      <created>1633454959262</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633454959262</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,7 +239,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add log4 1.2 demo" />
     <MESSAGE value="add jcl demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jcl demo" />
+    <MESSAGE value="add slf4j demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add slf4j demo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

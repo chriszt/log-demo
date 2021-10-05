@@ -10,6 +10,7 @@
         <module name="jcl" />
         <module name="slf4j" />
         <module name="log4j" />
+        <module name="logback" />
       </profile>
     </annotationProcessing>
   </component>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration>
+    <property name="pattern" value="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %c %M %L %thread %m%n" />
+    <property name="logDir" value="/home/yl/proj" />
+
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${pattern}</pattern>
+        </encoder>
+    </appender>
+    <appender name="fileAppender" class="ch.qos.logback.core.FileAppender">
+        <file>${logDir}/logback.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${pattern}</pattern>
+        </encoder>
+    </appender>
+    <appender name="htmlAppender" class="ch.qos.logback.core.FileAppender">
+        <file>${logDir}/logback.html</file>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.html.HTMLLayout">
+                <pattern>${pattern}</pattern>
+            </layout>
+        </encoder>
+    </appender>
+    <appender name="rollingFileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${logDir}/roll_logback.log</file>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${pattern}</pattern>
+        </encoder>
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${logDir}/roll.%d{yyyy-MM-dd}.log%i.gz</fileNamePattern>
+            <maxFileSize>1KB</maxFileSize>
+        </rollingPolicy>
+    </appender>
+    <appender name="consoleFilterAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <target>System.err</target>
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>${pattern}</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+    <appender name="asyncAppender" class="ch.qos.logback.classic.AsyncAppender">
+        <appender-ref ref="consoleAppender" />
+    </appender>
+
+    <root level="ALL">
+<!--        <appender-ref ref="consoleAppender" />-->
+<!--        <appender-ref ref="fileAppender" />-->
+<!--        <appender-ref ref="htmlAppender" />-->
+<!--        <appender-ref ref="rollingFileAppender" />-->
+<!--        <appender-ref ref="consoleFilterAppender" />-->
+        <appender-ref ref="asyncAppender" />
+    </root>
+
+    <logger name="com.chriszt" level="info" additivity="false">
+        <appender-ref ref="consoleAppender" />
+    </logger>
+</configuration>
