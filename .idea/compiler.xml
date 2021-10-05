@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="jul" />
         <module name="jcl" />
+        <module name="slf4j" />
         <module name="log4j" />
       </profile>
     </annotationProcessing>
