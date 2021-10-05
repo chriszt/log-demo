@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j/src/test/java/com/chriszt/log4j/Log4jTest01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/log4j/src/test/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="265e006a-aa6e-497b-b986-e4872cd501dd" name="Default Changelist" comment="add log4 1.2 demo">
+      <change afterPath="$PROJECT_DIR$/jcl/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcl/src/test/java/com/chriszt/jcl/JCLTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jcl/src/test/resources/log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -49,6 +48,16 @@
     <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/LogManager.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/OptionConverter.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
   <component name="ProjectId" id="1z3Coy0juTLHqzH7hShf3ckwPvi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,15 +72,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jul/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jcl/src/test/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Groovy compiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/jcl/src/test/resources" />
       <recent name="$PROJECT_DIR$/jul/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Log4jTest01.test08">
+  <component name="RunManager" selected="JUnit.JCLTest.test02">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -85,33 +96,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log4jTest01.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="log4j" />
+    <configuration name="JCLTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.log4j.*" />
+          <option name="PATTERN" value="com.chriszt.jcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
-      <option name="METHOD_NAME" value="test04" />
+      <option name="PACKAGE_NAME" value="com.chriszt.jcl" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.jcl.JCLTest" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Log4jTest01.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="log4j" />
+    <configuration name="JCLTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jcl" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.chriszt.log4j.*" />
+          <option name="PATTERN" value="com.chriszt.jcl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.chriszt.log4j" />
-      <option name="MAIN_CLASS_NAME" value="com.chriszt.log4j.Log4jTest01" />
-      <option name="METHOD_NAME" value="test05" />
+      <option name="PACKAGE_NAME" value="com.chriszt.jcl" />
+      <option name="MAIN_CLASS_NAME" value="com.chriszt.jcl.JCLTest" />
+      <option name="METHOD_NAME" value="test02" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -167,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JCLTest.test02" />
+        <item itemvalue="JUnit.JCLTest.test01" />
         <item itemvalue="JUnit.Log4jTest01.test08" />
         <item itemvalue="JUnit.Log4jTest01.test07" />
         <item itemvalue="JUnit.Log4jTest01.test06" />
-        <item itemvalue="JUnit.Log4jTest01.test05" />
-        <item itemvalue="JUnit.Log4jTest01.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -184,8 +195,16 @@
       <option name="presentableId" value="Default" />
       <updated>1633367563074</updated>
       <workItem from="1633367564383" duration="9631000" />
-      <workItem from="1633406592055" duration="13774000" />
+      <workItem from="1633406592055" duration="16853000" />
     </task>
+    <task id="LOCAL-00001" summary="add log4 1.2 demo">
+      <created>1633426597267</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633426597267</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,5 +221,13 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add log4 1.2 demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add log4 1.2 demo" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
