@@ -11,6 +11,7 @@
         <module name="slf4j" />
         <module name="log4j" />
         <module name="logback" />
+        <module name="log4j2" />
       </profile>
     </annotationProcessing>
   </component>

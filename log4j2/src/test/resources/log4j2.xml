@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<Configuration xmlns="http://logging.apache.org/log4j/2.0/config" status="debug" monitorInterval="5">-->
+<Configuration>
+    <Properties>
+        <Property name="logDir">/tmp/log-demo</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="consoleAppender" target="SYSTEM_OUT" />
+
+        <File name="fileAppender" fileName="${logDir}/log4j2.log">
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %m%n" />
+        </File>
+
+        <RollingFile name="rollingFileAppender" fileName="${logDir}/rollog.log"
+                     filePattern="${logDir}/$${date:yyyy-MM-dd}/rollog-%d{yyyy-MM-dd-HH-mm}-%i.log">
+            <PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} %m%n" />
+            <Policies>
+                <OnStartupTriggeringPolicy />
+                <SizeBasedTriggeringPolicy size="10KB" />
+                <TimeBasedTriggeringPolicy />
+            </Policies>
+            <DefaultRolloverStrategy max="30" />
+        </RollingFile>
+
+        <Async name="asyncAppender">
+            <AppenderRef ref="consoleAppender" />
+        </Async>
+    </Appenders>
+
+    <Loggers>
+        <Root level="trace">
+            <AppenderRef ref="consoleAppender" />
+<!--            <AppenderRef ref="fileAppender" />-->
+<!--            <AppenderRef ref="rollingFileAppender" />-->
+<!--            <AppenderRef ref="asyncAppender" />-->
+        </Root>
+        <AsyncLogger name="com.chriszt" level="trace" includeLocation="false" additivity="false">
+            <AppenderRef ref="consoleAppender" />
+        </AsyncLogger>
+    </Loggers>
+</Configuration>
